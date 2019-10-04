@@ -1,7 +1,7 @@
 # The main page
-{: .no_toc }
 
-Now can we push?
+
+Will I get contents?
 
 Will it work if I:
 * Use Jekyll?
@@ -9,7 +9,26 @@ Will it work if I:
 
 ## Jekyll
 
-It's a theme.
+### What is it?
+It's a theme that lets me put h3 under h2 while looking sensible.
+
+## bit Bigging text under header 2
+
+Leading off with fs-5 is great under h2.
+{: .fs-5 .fw-300 }
+
+### Then more h3 subsections
+
+Here the text is smaller.
+
+### How about a block quote.
+
+According to someone:
+> And this isn't.
+
+### And code 
+Just some c++.
+
 
 ```cpp
 #include <iostream.h>
@@ -23,13 +42,5 @@ int main()
   cout << "It should work." << endl;
 }
 ```
-## bit Bigging text under header
-
-Is fs-5 the sweet spot for big intro to h2?
-{: .fs-5 .fw-300 }
-
-### That was code.
-
-> And this isn't.
 
 
