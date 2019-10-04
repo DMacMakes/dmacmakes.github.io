@@ -4,6 +4,7 @@
 Will it work if I:
 * Use Jekyll?
 * And enable the Just-The-Docs theme?
+* Edit from home right now and push and test wincred etc?
 
 ## Jekyll
 
