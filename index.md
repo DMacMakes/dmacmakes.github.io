@@ -1,5 +1,5 @@
 # The main page
-
+{: .no_toc }
 Will it work if I:
 * Use Jekyll?
 * And enable the Just-The-Docs theme?
@@ -19,5 +19,13 @@ int main()
   cout << "It should work." << endl;
 }
 ```
-That was code.
+## Bigging text under header
+
+Using classes to make text bigger.
+{: .fs-6 .fw-300 }
+
+### That was code.
+
 > And this isn't.
+
+
