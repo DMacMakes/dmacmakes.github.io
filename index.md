@@ -25,8 +25,8 @@ int main()
 ```
 ## bit Bigging text under header
 
-Using classes to make text a little bigger.
-{: .fs-6 .fw-300 }
+Is fs-5 the sweet spot for big intro to h2?
+{: .fs-5 .fw-300 }
 
 ### That was code.
 
