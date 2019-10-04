@@ -24,7 +24,7 @@ int main()
 ## bit Bigging text under header
 
 Using classes to make text a little bigger.
-{: .fs-4 .fw-300 }
+{: .fs-6 .fw-300 }
 
 ### That was code.
 
