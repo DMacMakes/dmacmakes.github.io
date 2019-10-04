@@ -21,9 +21,9 @@ int main()
   cout << "It should work." << endl;
 }
 ```
-## Bigging text under header
+## bit Bigging text under header
 
-Using classes to make text bigger.
+Using classes to make text a little bigger.
 {: .fs-4 .fw-300 }
 
 ### That was code.
