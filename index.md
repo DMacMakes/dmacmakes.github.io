@@ -1,10 +1,12 @@
 # The main page
 {: .no_toc }
+
 Will it work if I:
 * Use Jekyll?
 * And enable the Just-The-Docs theme?
 
 ## Jekyll
+
 It's a theme.
 
 ```cpp
@@ -22,7 +24,7 @@ int main()
 ## Bigging text under header
 
 Using classes to make text bigger.
-{: .fs-6 .fw-300 }
+{: .fs-4 .fw-300 }
 
 ### That was code.
 
