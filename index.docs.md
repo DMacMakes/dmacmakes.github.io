@@ -1,7 +1,7 @@
 # The main page
 
 
-Is it true, can this work?
+Will I get contents?
 
 Will it work if I:
 * Use Jekyll?
