@@ -1,11 +1,11 @@
 # The main page
 {: .no_toc }
 
+Now can we push?
+
 Will it work if I:
 * Use Jekyll?
 * And enable the Just-The-Docs theme?
-
-Switching accounts?
 
 ## Jekyll
 
