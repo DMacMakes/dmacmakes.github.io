@@ -26,6 +26,8 @@ topnav_dropdowns:
       folderitems:
         - title: Jekyll Documentation Theme
           url: /mydoc_introduction.html
+        - title: ISE102 
+          url: /ise102_week1.html
         - title: Product 1
           url: /p1_landing_page.html
         - title: Product 2

@@ -3,13 +3,13 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: Danny's Classes
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: MDS@Torrens Lectures
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Your company
+company_name: Dmac teaches
 # this appears in the footer
 
 github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -103,6 +103,7 @@ defaults:
 
 sidebars:
 - home_sidebar
+- ise102_sidebar
 - mydoc_sidebar
 - product1_sidebar
 - product2_sidebar

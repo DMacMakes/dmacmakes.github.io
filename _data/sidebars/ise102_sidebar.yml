@@ -1,0 +1,42 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: ISE102
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Weekly Classes 
+    output: web, pdf
+    folderitems:
+
+    - title: Week 1
+      url: /ise102_week1.html
+      output: web, pdf
+
+    - title: Sample 2
+      url: /ise102_week2.html
+      output: web, pdf
+
+  - title: Assessments 
+    output: web, pdf
+
+    folderitems:
+    - title: 'Assessment 1: Exam'
+      url: /ise102_week1.html
+      output: web, pdf
+
