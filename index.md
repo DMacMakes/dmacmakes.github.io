@@ -7,12 +7,10 @@ comments: false
 summary: "Class notes"
 ---
 
-{% include note.html content="Note my butt. <a alt='technical writing blog' href='http://www.instagram.com/dmacmakes'>cabling insta</a>." %}
-
 
 ### 1. Introduction to Software Engineering
 
-Learn some `C++` programming.
+Learn some **C++** programming.
 
 * [ise102 overview][ise102_overview.html]
 * [ise102 week 1 notes][ise102_notes.html]
