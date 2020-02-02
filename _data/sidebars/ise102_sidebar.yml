@@ -3,40 +3,23 @@
 
 entries:
 - title: Sidebar
-  product: ISE102
+  product: ise102
   version: 1.0
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
-
   - title: Weekly Classes 
-    output: web, pdf
+    output: web
     folderitems:
 
     - title: Week 1
       url: /ise102_week1.html
-      output: web, pdf
+      output: web
 
-    - title: Sample 2
+    - title: Week 2
       url: /ise102_week2.html
-      output: web, pdf
+      output: web
 
-  - title: Assessments 
-    output: web, pdf
-
-    folderitems:
-    - title: 'Assessment 1: Exam'
-      url: /ise102_week1.html
-      output: web, pdf
+  - title: Assessments
+    url: /ise102_overview.html#assessments
+    output: web
 

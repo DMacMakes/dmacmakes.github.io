@@ -1,22 +1,21 @@
 ---
-title: "Danny's Notes"
+title: "Class Materials"
 keywords: homepage 
-tags: [getting_started]
-sidebar: ise102_sidebar
+sidebar: home_sidebar
 permalink: index.html
 comments: false
-summary: Here's my summary
+summary: "Class notes and resources"
 ---
 
 {% include note.html content="Note my butt. <a alt='technical writing blog' href='http://www.instagram.com/dmacmakes'>cabling insta</a>." %}
 
 
-### 2. Install Jekyll
+### 1. Introduction to Software Engineering
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+Learn some `C++` programming.
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+* [ise102 overview][ise102_overview.html]
+* [ise102 week 1 notes][ise102_notes.html]
 
 
 <pre>
@@ -26,12 +25,12 @@ tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: July 3, 2016
 summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
-<span class="red">sidebar: mydoc_sidebar</span>
+<span class="red">sidebar: home_sidebar</span>
 permalink: mydoc_alerts
 ---
 </pre>
 
-The `sidebar: mydoc_sidebar` refers to the \_data/sidebars/mydoc_sidebar.yml file.
+The `sidebar: home_sidebar` refers to the \_data/sidebars/home_sidebar.yml file.
 
 Note that your sidebar can only have 2 levels (expand the **Tag archives** option to see an example of the second level). Given that each product has its own sidebar, this depth should be sufficient (it's really like 3 levels). Deeper nesting goes against usability recommendations.
 

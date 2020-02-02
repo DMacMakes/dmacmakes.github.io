@@ -1,0 +1,26 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+  - title: Sidebar
+    product: aac202
+    version: 1.0
+    folders:
+  
+    - title: Weekly Classes 
+      output: web
+      folderitems:
+  
+      - title: Week 1
+        url: /aac202_week1.html
+        output: web
+  
+      - title: Week 2
+        url: /aac202_week2.html
+        output: web
+  
+    - title: Assessments
+      url: /aac202_overview.html#assessments
+      output: web
+  
+  

@@ -2,6 +2,14 @@
 # If you are using the createtag script, don't leave an blank line at the end of this file.
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
+  - ise102
+  - acr101
+  - acr103
+  - aac202
+  - notes
+  - assessments
+  - overview
+  - resources
   - getting_started
   - content_types
   - navigation
