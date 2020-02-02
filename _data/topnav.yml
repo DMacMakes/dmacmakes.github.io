@@ -6,7 +6,7 @@ topnav:
     - title: Blackboard
       external_url: https://laureate-au.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_294_1
     - title: ise102
-      url: /ise102_week1.html
+      url: /ise102_overview.html
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -14,7 +14,7 @@ topnav_dropdowns:
   folders:
     - title: Subjects
       folderitems:
-        - title: ISE102 
-          url: /ise102_week1.html
-        - title: AAC202
-          url: /aac202_week1.html
+        - title: Intro to Software Engineering (ISE102)
+          url: /ise102_overview.html
+        - title: Advanced Asset Creation (AAC202)
+          url: /aac202_overview.html

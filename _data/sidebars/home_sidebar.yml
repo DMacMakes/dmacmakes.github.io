@@ -1,16 +1,26 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+# Regenerate!
 
 entries:
-- title: Danny
-  levels: one
+- title: Home 
   folders:
 
-  - title: Classes
+  - title: Intro To Software Engineering
     output: web
     folderitems:
-    - title: intro soft eng
+    - title: Overview
       url: /ise102_overview.html
       output: web
-    - title: Adv. asset creation
+    - title: Notes (Week 1)
+      url: /ise102_week1.html
+      output: web
+    
+  - title: Advanced Asset Creation
+    output: web
+    folderitems:
+    - title: Overview 2
       url: /aac202_overview.html
+      output: web
+    - title: Notes (Week 1) 2
+      url: /aac202_week1.html
       output: web

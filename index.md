@@ -1,10 +1,10 @@
 ---
-title: "Class Materials"
+title: "Materials for Danny's Classes"
 keywords: homepage 
 sidebar: home_sidebar
 permalink: index.html
 comments: false
-summary: "Class notes and resources"
+summary: "Class notes"
 ---
 
 {% include note.html content="Note my butt. <a alt='technical writing blog' href='http://www.instagram.com/dmacmakes'>cabling insta</a>." %}
