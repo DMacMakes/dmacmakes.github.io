@@ -1,10 +1,11 @@
 ---
 title: Week 1 Class
 keywords: programming
-summary: "Writing our first program."
+summary: "First programming concepts"
 sidebar: ise102_sidebar
 permalink: ise102_week1.html
 folder: ise102 
+
 ---
 
 ## Welcome
@@ -16,96 +17,94 @@ http://www.artstation.com/dmacdraws/ - game art
 
 **You:** The next makers with long futures.
 
-### Programming: it's just instructions.
+## Programming: it's just instructions.
 
 Programming evokes the idea of computers and code and instructions. That's just the execution. 
 
 If you have a problem that you can't solve, you can often provide instructions to a person or machine to do it for you. We want someone else to do it for us. My 3 year old son has this down.
 
-{% include callout.html content="Harvey has a **problem:** he wants warm milk but he can't instruct the microwave to make his milk 'better' (warm). He _does_ know the instructions required to have an adult prepare the milk<br/><br/>**Harvey:** 'Mum, I want a bottle please. Can you make it better?'" type="primary" %}
+<br />
+{% include callout.html content="**Problem 1** <br />Harvey wants warm milk but he can't instruct the microwave to make his milk 'better' (warm). He _does_ know the instructions required to have an adult prepare the milk<br/><br/>**Harvey:** 'Mum, I want a bottle please. Can you make it better?'" type="primary" %}
 
-The first instruction programs the adult to put milk in a clean bottle, and the second causes them to put it in the microwave for forty seconds, shake it a bit. He adds a final visual instruction by holding his hands out, causing the adult to bring it to him on the couch.
+**Translated instructions:**
+1. Put milk in a clean bottle
+2. Instruction 2 causes them to put it in the microwave for forty seconds, shake it a bit. 
+3. He adds a final visual instruction by holding his hands out, causing the adult to bring it to him on the couch.
 
-### More explicit instructions.
+<br />
+{% include callout.html content="**Problem 2** <br />Your parents want clean dishes for a fortnight, you want an expansion pack.<br /><br />**Parents:** Hand you detailed instructions." type="primary" %}
 
-Those instructions were simple and required a lot of shared understanding. Sometimes we need to be more explicit.
-When your parents won't buy you an expansion pack unless you wash the dishes, they might not just say "wash the dishes". Not if they want a proper job done. They give you granular **instructions** and locations of **resources**.
+**Dish washing instructions:**
+1. Rinse them before they go in the washing machine
+2. Top rack bowls need to be upside down
+3. Use the soap tablets in the box under the sink
+4. Use the daily cycle with drying on.
+5. Put away the dishes once it's done.
 
-* Rinse them before they go in the washing machine
-* Top rack bowls need to be upside down
-* Use the soap tablets in the box under the sink
-* Use the daily cycle with drying on.
-* Put away the dishes once it's done.
+{%include note.html content="A computer, like your mum, or an electrician, has some skills that you don't. <br /><br />Computers, mostly, are good at doing maths, running simulations and controlling devices like monitors and printers." %}
 
-A computer, like your mum, or an electrician, has some skills that you don't. Computers, mostly, are good at doing maths, running simulations and controlling devices like monitors and printers. Unlike people, they'll accept your instructions any time. 
+## Four basic elements of computing
 
-## Four basic elements of computing.
+While there are lots of instructions you could give a computer, they'll all fit into one of these four basic categories: `Input`, `storage`, `processing` and `output`, 
 
-While there are lots of instructions you could give a computer, they'll all fit into one of these four basic categories: **Input**, **storage**, **processing** and **output**, 
-
-The 4 categories of a computer's capabilities apply pretty well to Harvey's mum as well. She:
-  * Receives input via her ears, eyes and other senses
-  * Her brain stores instructions and remembers events
-  * She uses her hands to process the milk, moving it to a bottle and warming it
-  * She outputs a warm bottle of milk and a kiss to Harvey.
-
-|  Category |  Examples in computers/programs      |
-|------------|------------------|
 | **Input** |  _Data_ in: Keyboard, mouse, network connection, camera, microphone, touch screen, control pad   |
 | **Storage** | _Data_ stored: SSD, Hard drive, RAM, CD, Micro SD. |
 | **Processing** | _Data_ changed: Moving a character across a platform, adding two cells of a spreadsheet, decompressing video. |
 | **Output** | Showing the _data_: Drawing pixels to a monitor, sending packets to a game server, sound from speakers, printing. |
 
+## Four basic elements of people
+
+**Harvey's mum:**
+  * Receives `input` via her ears, eyes and other senses
+  * Her brain stores instructions and remembers events
+  * She uses her hands to process the milk, moving it to a bottle and warming it
+  * She outputs a warm bottle of milk and a kiss to Harvey.
+  
+<br />
 {%include tip.html content="It's pretty easy to focus our mind and write out a program when we reduce a computer to these four elements, because computers were designed to operate like we do. You can solve the instructions and syntax later." %}
 
 ## Our first program: Knight's Journey
 
-![Knighting](images/week1/knighting.png)
+![Knighting](/images/ise102/week1/knighting.png)
 
-{% include callout.html content="**Knight's Journey** is a game where you give your name, and are immediately made into a Knight." type="primary" %} 
+_**Knight's Journey** is a game where you give your name, and are immediately made into a Knight._
 
-Rewriting that s a problem:
-{% include callout.html content="How do we get a computer to take our name and make us into knights?" type="info" %}
+{% include callout.html content="**Problem:** How do we get a computer to take our name and make us into knights?" type="info" %}
 
-The computer, then needs to:
-* Ask us to enter our name
-* Receive our name via keyboard
-* Remember our name
-* Know the special knighting words
-* Combine our name with the knighting words
-* Print out the combination, so we know we're knights.
+**Instructions to computer:**
 
-Let's look at how these fit into our four categories:
+1. Ask us to enter our name
+2. Receive our name via keyboard
+3. Remember our name
+4. Know the special knighting words
+5. Combine our name with the knighting words
+6. Print out the combination, so we know we're knights.
+
+**How they fit into our four categories:**
 
 <table>
   <colgroup>
     <col width="30%" />
     <col width="70%" />
   </colgroup>
-  <thead>
-    <tr class="header">
-      <th>Category</th>
-      <th>Instructions</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td markdown="span">**Input**</td>
-      <td markdown="span"><ul><li>Receive our name via keyboard.</li></ul></td>
+      <td markdown="span">
+         * Receive our name via keyboard.
+      </td>
     </tr>
     <tr>
       <td markdown="span">**Storage**</td>
       <td markdown="span">
-        <ul>
-          <li>Remember our name</li>
-          <li>Know the knighting words</li>
-        </ul>
+        * Remember our name
+        * Know the knighting words
       </td>
     </tr>
     <tr>
       <td markdown="span">**Processing**</td>
       <td markdown="span">
-        <ul><li>Combine our name with the knighting words</li></ul>
+        Combine our name with the knighting words
       </td>
     </tr>
     <tr>
@@ -123,7 +122,7 @@ Let's look at how these fit into our four categories:
 
 ## The C++ programming language
 
-{% include image.html file="images/week1/bjarne" alt="Bjarne" caption="The creator of C++, Bjarne Stroustroup. As of 2020 he still heads the project." max_width="300" %}
+{% include image.html file="images/week1/bjarne.jpg" alt="Bjarne" caption="The creator of C++, Bjarne Stroustroup. As of 2020 he still heads the project." max_width="300" %}
 
 * Created in the 80s
 * Built on a language called C
@@ -132,16 +131,18 @@ Let's look at how these fit into our four categories:
 * It's used to make Triple-A games, operating systems, office programs, art programs.
 * Used in Planes, fridges, satellites, watches, particle colliders. (picture)
 * Fast, low level aka "close to the metal"
-* Quite familiar to _Java_, _C#_, _ActionScript_ programmers.
-* Somewhat familiar to _Python_ coders, and in some ways strange.
+* Quite familiar to `Java`, `C#`, `ActionScript` programmers.
+* Somewhat familiar to `Python` coders, and in some ways strange.
 
-To **make a program in C++**, and many other languages, we follow these steps:
+## Making a program in C++
 
-1. Write our instructions in a text file, called a **source file**, using the special grammar and vocabulary of the language. You can see example source code below.
-2. Feed that file into special programs that check for errors and, finding none, will produce a new _executable_ file, your program!Examples: `winword.exe`,  `battlenet.exe`
+We follow these steps, common to many languages:
+
+1. Write our instructions in a text file, called a `source file`, using the special grammar and vocabulary of the language. You can see example source code below.
+2. Feed that file into special programs that check for errors and, finding none, will produce a new `executable` file, your program! Examples: `winword.exe`,  `battlenet.exe`
 3. Run the program on a computer.
 
-Below is the source code for an early version of _Knight's Journey_.
+Below is the `source code` for an early version of _Knight's Journey_.
 
 ```cpp
 // example c++ source code 
@@ -166,9 +167,7 @@ This source code would produce a program that outputs the following text to the 
 I dub thee Ser Person, Knight of the realm. Arise!
 ```
 
-![hello](images/week1/hello.png)
-
-### Programming by charts
+## Programming by charts
 
 We don't have to start straight in with code. In fact that's almost never the case.
 
