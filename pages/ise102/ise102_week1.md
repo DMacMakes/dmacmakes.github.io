@@ -7,7 +7,7 @@ permalink: ise102_week1.html
 folder: ise102 
 ---
 
-## Who are we?
+## Welcome
 
 **Me:** Danny McGillick. Computer Science @ UTS, Web dev, Creative technologist in advertising (flash/actionscript, unity), 2D and 3D artist for Torus, Halfbrick, Blowfish studios. Keyboard enthusiast, bits maker.
 
@@ -16,11 +16,9 @@ http://www.artstation.com/dmacdraws/ - game art
 
 **You:** The next makers with long futures.
 
-## What is programming?
+### Programming: it's just instructions.
 
 Programming evokes the idea of computers and code and instructions. That's just the execution. 
-
-### Programming: it's just instructions.
 
 If you have a problem that you can't solve, you can often provide instructions to a person or machine to do it for you. We want someone else to do it for us. My 3 year old son has this down.
 
@@ -39,44 +37,30 @@ When your parents won't buy you an expansion pack unless you wash the dishes, th
 * Use the daily cycle with drying on.
 * Put away the dishes once it's done.
 
-### Programming: telling a computer how to solve a problem
+A computer, like your mum, or an electrician, has some skills that you don't. Computers, mostly, are good at doing maths, running simulations and controlling devices like monitors and printers. Unlike people, they'll accept your instructions any time. 
 
-A computer, like your mum, or an electrician, has some skills that you don't. Computers, mostly, are good at doing maths, running simulations and controlling devices like monitors and printers.
+## Four basic elements of computing.
 
-1. What to do
-2. Where to find stuff it needs.
----
+While there are lots of instructions you could give a computer, they'll all fit into one of these four basic categories: **Input**, **storage**, **processing** and **output**, 
 
-## Simplifying instructions
-Naturally there are a lot of instructions to do lots of different things.  They're not all amazingly different to eachother though, and fall into a few categories, reflecting the functionality of our helper.
+The 4 categories of a computer's capabilities apply pretty well to Harvey's mum as well. She:
+  * Receives input via her ears, eyes and other senses
+  * Her brain stores instructions and remembers events
+  * She uses her hands to process the milk, moving it to a bottle and warming it
+  * She outputs a warm bottle of milk and a kiss to Harvey.
 
-### Basic features of a computer
-
-The features of a computer are much like those of mum, as shown by Harvey. She has **input** (ears), **storage** (brain remembers instructions), **processing** (hands transform kitchen things into warm bottle of milk) and **output** (delivers bottle of warm milk).
-
-|  Computer feature category |  Examples      |
+|  Category |  Examples in computers/programs      |
 |------------|------------------|
 | **Input** |  _Data_ in: Keyboard, mouse, network connection, camera, microphone, touch screen, control pad   |
 | **Storage** | _Data_ stored: SSD, Hard drive, RAM, CD, Micro SD. |
 | **Processing** | _Data_ changed: Moving a character across a platform, adding two cells of a spreadsheet, decompressing video. |
 | **Output** | Showing the _data_: Drawing pixels to a monitor, sending packets to a game server, sound from speakers, printing. |
 
-{%include note.html content="Human features deal with information in forms including sounds, sight, pysical sensations. So do computers, and once it's in a computer we call it **data**" %}
-
-### Instructions fall into those four feature categories
-
-It's pretty easy to focus our mind and write out a program when we think of our computer as those four features. We can find the matching instructions later.
-
-| **Input** |  Get data from keyboard,      |
-| **Storage** | _Data_ stored: SSD, Hard drive, RAM, CD, Micro SD. |
-| **Processing** | _Data_ changed: Moving a character across a platform, adding two cells of a spreadsheet, decompressing video. |
-| **Output** | Showing the _data_: Drawing pixels to a monitor, sending packets to a game server, sound from speakers, printing. |
-
-Instructions then, fall into those four categories. If we focus on the categories it's much easier solve problems. 
+{%include tip.html content="It's pretty easy to focus our mind and write out a program when we reduce a computer to these four elements, because computers were designed to operate like we do. You can solve the instructions and syntax later." %}
 
 ## Our first program: Knight's Journey
 
-![Knighting](assets/week1/knighting.png)
+![Knighting](images/week1/knighting.png)
 
 {% include callout.html content="**Knight's Journey** is a game where you give your name, and are immediately made into a Knight." type="primary" %} 
 
@@ -91,14 +75,7 @@ The computer, then needs to:
 * Combine our name with the knighting words
 * Print out the combination, so we know we're knights.
 
-### Categorising our computer instructions
- 
- The things we need to order the computer to do, by feature:
-
-| **Input** | Receive our name via keyboard |
-| **Storage** | * Remember our name |
-| **Processing** | _Data_ changed: Moving a character across a platform, adding two cells of a spreadsheet, decompressing video. |
-| **Output** | Showing the _data_: Drawing pixels to a monitor, sending packets to a game server, sound from speakers, printing. |
+Let's look at how these fit into our four categories:
 
 <table>
   <colgroup>
@@ -146,7 +123,7 @@ The computer, then needs to:
 
 ## The C++ programming language
 
-{% include image.html file="assets/week1/bjarne" alt="Bjarne" caption="The creator of C++, Bjarne Stroustroup. As of 2020 he still heads the project." max_width="300" %}
+{% include image.html file="images/week1/bjarne" alt="Bjarne" caption="The creator of C++, Bjarne Stroustroup. As of 2020 he still heads the project." max_width="300" %}
 
 * Created in the 80s
 * Built on a language called C
@@ -189,7 +166,7 @@ This source code would produce a program that outputs the following text to the 
 I dub thee Ser Person, Knight of the realm. Arise!
 ```
 
-![hello](assets/week1/hello.png)
+![hello](images/week1/hello.png)
 
 ### Programming by charts
 
@@ -203,7 +180,7 @@ You can:
 
 Some tools are used to plan out your system as a chart, then export code! Critical transport systems where operation has to be absolutely understood and reliable. It's not bleeding edge performance or super flexible.
 
-![scade](assets/week1/transport_scade_charting.png)
+![scade](images/week1/transport_scade_charting.png)
 
 ___ 
 
@@ -219,13 +196,13 @@ I've already spent many hours designing this game, so we're going to the chartin
 3. Jump into the flowgorithm folder. Ignore Micro for now.
 4. Double click flowgorithm.exe.
 
-![flowgorithm open](assets/week1/flowgorithm.png)
+![flowgorithm open](images/week1/flowgorithm.png)
 
 
 
 ### Exporting to pseudocode
 
-![Knights Journey](assets/week1/flow_knights_journey.png)
+![Knights Journey](images/week1/flow_knights_journey.png)
 
 That psuedocode is super easy to follow! The only weird bit is `String`. 
 
@@ -329,7 +306,7 @@ There's quite a bit to take in there, so lets start with something humans are ve
 
 ### Input and Output
 
-![input output ](assets/week1/kj_input_output.png)
+![input output ](images/week1/kj_input_output.png)
 `cin` and `cout` are commands. They mean **console in** and **console out**. The console is the windows command prompt: the black window we saw. We'll get into it more. 
 
 #### cin
@@ -352,7 +329,7 @@ We had to store the player's name when they typed it in. That way we could print
 * **It's labelled with a name**, so we can get stuff from it, or put stuff in.
 * Different variables can hold **different types of information**.
 
-![variables](assets/week1/variables.png)
+![variables](images/week1/variables.png)
 
 **Variables have a**
 1. **name:** a label, like `playerName`
@@ -379,7 +356,7 @@ Whitespace is the empty space on your page. It's created by pressing **space**, 
 
 Why did I tab out a lot? **Whitespace** really helps us understand things, more than just adding more characters.
 
-![whitespace](assets/week1/whitespace_matters.png)
+![whitespace](images/week1/whitespace_matters.png)
 
 ---
 
@@ -394,11 +371,11 @@ using namespace std; int main() { cout << "Hello world!" << endl; return(0); }
 
 So we use `{}` curlybraces for blocks of related code, and `;` semicolon to end a statement or line of code. 
 
-![Curly braces and semicolons](assets/week1/curlybraces_semicolon.png)
+![Curly braces and semicolons](images/week1/curlybraces_semicolon.png)
 
 Tabs (spaces at start of line) are for our human brains to quickly group code visually.
 
-![tabs](assets/week1/tabs.png)
+![tabs](images/week1/tabs.png)
 
 // a keyboard with code punctuation hilighted would be nice
 
@@ -410,7 +387,7 @@ It can actually export c++! We ddn't do that immediately, because we need to typ
 
 It's a great tool though for checking your work, planning things out, or even generating snips of code to integrate.
 
-![flow kj cpp](assets/week1/flow_kj_cpp.png)
+![flow kj cpp](images/week1/flow_kj_cpp.png)
 
 ---
 
@@ -463,7 +440,7 @@ A great way to remember things:
 4. Select **Basic Concepts** and work through the **first 5 sections (up to and including comments)** to revise today's learnings
 5. Continue through the **next 4 sections on variables and basic maths** to be ready for next week's topics.
 
-![solo learn](assets/week1/sololearn_steps.png)
+![solo learn](images/week1/sololearn_steps.png)
 
 ### 2. Read textbook chapter 1
 
