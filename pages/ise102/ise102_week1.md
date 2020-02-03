@@ -74,15 +74,9 @@ It's pretty easy to focus our mind and write out a program when we think of our 
 
 Instructions then, fall into those four categories. If we focus on the categories it's much easier solve problems. 
 
-### Arduino example
-
-Could be fun to turn dial and change LED lights.
-
 ## Our first program: Knight's Journey
 
 ![Knighting](assets/week1/knighting.png)
-
-It's a pretty simple game.
 
 {% include callout.html content="**Knight's Journey** is a game where you give your name, and are immediately made into a Knight." type="primary" %} 
 
@@ -150,13 +144,11 @@ The computer, then needs to:
   </tbody>
 </table>
 
-## Programming in C++
+## The C++ programming language
 
-### A few quick facts
+{% include image.html file="assets/week1/bjarne" alt="Bjarne" caption="The creator of C++, Bjarne Stroustroup. As of 2020 he still heads the project." max_width="300" %}
 
-C++ is a programming language. You write text files using the c++ language, and with some computer magic you get executable programs.
-
-* Created in the 80s by _Bjarne Stroustrup _. 
+* Created in the 80s
 * Built on a language called C
 * It's what's called an Object Oriented language.
 * It's the most popular heavy-job high-performance language in the world
@@ -166,49 +158,38 @@ C++ is a programming language. You write text files using the c++ language, and 
 * Quite familiar to _Java_, _C#_, _ActionScript_ programmers.
 * Somewhat familiar to _Python_ coders, and in some ways strange.
 
-### Making things in C++
+To **make a program in C++**, and many other languages, we follow these steps:
 
-These are the main steps, which we'll get deeper into later:
+1. Write our instructions in a text file, called a **source file**, using the special grammar and vocabulary of the language. You can see example source code below.
+2. Feed that file into special programs that check for errors and, finding none, will produce a new _executable_ file, your program!Examples: `winword.exe`,  `battlenet.exe`
+3. Run the program on a computer.
 
-1. Write our instructions in a text file, using the special grammar and vocabulary of the language.
-2. 'Compile' that text file into a program (a .exe file like word.exe, or battlenet.exe)
-3. Run the program on a computer (load it into memory, it executes.)
+Below is the source code for an early version of _Knight's Journey_.
 
-### Cpp looks like this
-
-```cpp {.line-numbers}
+```cpp
+// example c++ source code 
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main()
 {
-  string message = "Hello!";
+  string knightingWords = "I dub thee Ser Person, Knight of the realm. Arise!";
 
-  cout << message << endl;
+  cout << knightingwords << endl;
 
   return(0);
 }
 
 ```
 
+This source code would produce a program that outputs the following text to the console and exit.
+
+```
+I dub thee Ser Person, Knight of the realm. Arise!
+```
+
 ![hello](assets/week1/hello.png)
-
-### Its creator looks like this
-
-![Bjarne](assets/week1/bjarne.jpg)
-
-{% include image.html file="assets/week1/bjarne" alt="Bjarne" caption="Bjarne Stroustroup" %}
-
-## Making Knight's Journey
-
-> 1. **Program** Knight's Journey in **Flowgorithm**.
-> 2. **Play** Knight's Journey.
-> 3. Look at Knight's Journey **pseudocode**.
-> 4. **Write it** in C++
-> 5. **Break down** the C++
-
----
 
 ### Programming by charts
 
